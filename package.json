@@ -1,0 +1,46 @@
+{
+  "name": "kuduUpdate",
+  "author": "Outercurve Foundation",
+  "version": "0.1.0",
+  "description": "Update to private kudu service on your Azure Website",
+  "tags": [
+    "azure",
+    "deployment"
+  ],
+  "keywords": [
+    "node",
+    "azure",
+    "deployment"
+  ],
+  "main": "./bin/kuduupdate.js",
+  "engines": {
+    "node": ">= 0.6.20"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projectkudu/KuduUpdate.git"
+  },
+  "homepage": "http://github.com/projectkudu/KuduUpdate",
+  "bugs": {
+    "url": "http://github.com/projectkudu/KuduUpdate/issues"
+  },
+  "bin": {
+    "kuduUpdate": "./bin/kuduupdate"
+  },
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "readmeFilename": "README.markdown",
+  "dependencies": {
+    "colors": "~0.6.0-1",
+    "azure-cli": "~0.6.11",
+    "sinon": "~1.6.0",
+    "request": "~2.16.6"
+  }
+}
